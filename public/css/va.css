@@ -1,0 +1,220 @@
+.bady{
+    z-index: 20;
+    background-color: #F0FFF0;
+}
+
+.hohoho{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    background-color:#FFFFBB
+}
+
+.takatu{
+    color: #FF0000;
+}
+
+.dyadyadya{
+    margin: 0;
+    margin-top: 80px;
+}
+
+.kugatu{
+    text-align:center;
+    font-weight: 600;
+    border: 4px solid #FF0000;
+    background-color:#FFDBC9;
+    border-radius: 100px;
+    width: 650px;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    left: 430px;
+}
+
+.tatunami{
+    color: #FF0000; 
+}
+
+.yanke{
+    margin: 0; 
+    padding: 0;
+    font-weight: 600;
+    border: 3px solid #FFEEFF;
+    background-color:#FFDBC9
+}
+
+.sanji{
+    margin: 0;
+    margin-top: 80px;
+}
+
+.yotuya{
+    text-align:center;
+    font-weight: 600;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    position: relative;
+    left: 470px;
+    width: 600px;
+    font-size: 30px;
+    background-color: #FFFFDD;
+}
+
+.yayaya{
+    position:  absolute;        
+    padding:  550px;          
+    right:  450px;                
+    top: 410px;
+}
+
+.yayaya img{
+    width: 430px;
+    height: 280px;
+    border: 3px solid #DDFFFF;
+}
+
+.yatta{
+    padding-left: 550px;
+    margin:  2em auto 0em;
+    background-color: #FFFFDD;
+    width: 1000px;
+    height: 335px;
+}
+
+#yotuya{
+    border-bottom: 3px solid red;
+    display: inline-block;
+    font-weight: 600;
+}
+
+#miura{
+    border-bottom: 3px solid #BBBBBB;
+    display: inline-block;
+}
+
+.wawawa{
+    padding-left: 550px;
+    margin: 1em auto 7em;
+}
+
+#arai{
+    border-bottom: 3px solid red;
+    display: inline-block;
+    font-weight: 600;
+}
+
+#ishii{
+    border-bottom: 3px solid #BBBBBB;
+    display: inline-block;
+}
+
+.zyaki{
+    z-index: 30;
+    margin: auto;
+    position:  absolute;        
+    right:  1000px;                
+    top: 1300px;
+}
+
+.zyaki img{
+    width: 430px;
+    height: 150px;
+    border: 3px solid #FFFFCC;
+}
+
+.tyatya{
+    z-index: 40;
+    margin: auto;
+    position:  absolute;        
+    right:  1000px;                
+    top: 1455px;
+}
+
+.tyatya img{
+    width: 430px;
+    height: 150px;
+    border: 3px solid #FFFFCC;
+}
+
+.matui{
+    z-index: 50;
+    text-align: center;
+    background-color: #FFFFDD;
+    height: 220px;
+}
+
+#natu{
+    font-weight: 600;
+    border-bottom: 3px solid red;
+    display: inline-block;
+}
+
+#aki{
+}
+
+#huyu{
+}
+
+.nakau{
+    text-align: center;
+}
+
+#katuya{
+    font-weight: 600;
+    border-bottom: 3px solid red;
+    display: inline-block;
+}
+
+#sukiya{
+    
+}
+
+#matuya{
+    
+}
+
+.susiro{
+    text-align: center;
+    background-color: #FFFFDD;
+    margin: 0;
+    height: 220px;
+}
+
+#chousimaru{
+    font-weight: 600;
+    border-bottom: 3px solid red;
+    display: inline-block;
+}
+
+
+#kurazushi{
+    
+}
+
+#kaxtupazushi{
+    
+}
+
+.chage{
+    width: 300px;
+    position: relative;
+    left: 450px;
+}
+
+.chage button{
+    width: 600px;
+    height: 90px;
+    font-size: 200%;
+    font-weight: 900;
+    color: #FFFFFF;
+    background: #FF3333;
+    border: 1px solid #FFD5EC;
+    border-radius: 100px;
+}
+
+.chage button:hover{
+    background: #FF82B2;
+} 

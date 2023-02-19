@@ -1,0 +1,111 @@
+.cyacya a{
+    z-index: 50;
+    border-radius: 3px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 320px;
+    padding: 10px 2px;
+    color: #FFF;
+    transition: 0.01s ease-in-out;
+    font-weight: 900;
+    font-size: 260%;
+}
+.cyacya a:hover{
+    z-index: 50;
+}
+.qyaqya a{
+    z-index: 40;
+    border-radius: 3px;
+    position: relative;
+    top: 110px;
+    left: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 170px;
+    color: #FFF;
+    transition: 0.01s ease-in-out;
+    font-weight: 600;
+    font-size: 250%;
+    color: #111111;
+}
+.qyaqya a:hover{
+    z-index: 40;
+    background-color:#FFDBC9;
+}
+
+.rarara a{
+    z-index: 30;
+    border-radius: 3px;
+    position: relative;
+    top: 110px;
+    left: 290px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 230px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 250%;
+    color: #111111;
+}
+.rarara a:hover{
+    z-index: 10;
+    background-color:#FFDBC9;
+}
+.sasasa a{
+    z-index: 20;
+    border-radius: 3px;
+    position: relative;
+    top: 110px;
+    left: 310px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 370px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 250%;
+    color: #111111;
+}
+.sasasa a:hover{
+    z-index: 20;
+    background-color:#FFDBC9;
+}
+.gorira a{
+    z-index: 10;
+    border-radius: 3px;
+    position: relative;
+    top: 110px;
+    left: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 250px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 250%;
+    color: #111111;
+}
+.gorira a:hover{
+    z-index: 10;
+    background-color:#FFDBC9;
+}
+
+.ddd{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
