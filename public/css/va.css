@@ -1,6 +1,6 @@
 .bady{
     z-index: 20;
-    background-color: #F0FFF0;
+    
 }
 
 .hohoho{
@@ -64,8 +64,8 @@
 }
 
 .yayaya{
-    position:  absolute;        
-    padding:  550px;          
+    position:  absolute;
+    padding: 550px;
     right:  450px;                
     top: 410px;
 }
@@ -78,9 +78,9 @@
 
 .yatta{
     padding-left: 550px;
-    margin:  2em auto 0em;
+    margin:  2em 0 0 0;
     background-color: #FFFFDD;
-    width: 1000px;
+    width: 960px;
     height: 335px;
 }
 

@@ -1,0 +1,2 @@
+Route::get('/', function() {return view('crossinformation/cross-information-first');});
+

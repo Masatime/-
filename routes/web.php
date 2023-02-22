@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
-use App\Http\Piblic\Css;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +14,4 @@ use App\Http\Piblic\Css;
 |
 */
 
-Route::get('/', function() {return view('crosstec/cross-company-technology-information');});
-
+Route::get('/', function() {return view('crossinformation/cross-information-first');});

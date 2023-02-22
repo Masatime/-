@@ -59,7 +59,7 @@
                 <p id="kurazushi"><font size="5">国内にとらわれずに関係会社や上海オフィスを活用し樹脂、ゴム、金属などの材料を中国などの海外からも調達しております！</font></p>
                 <p id="kaxtupazushi"><font size="5">お客様のご事情に合わせてこれからも柔軟で安定的な材料調達を行ってまいります。</font></p>
             <div class="chage">
-                <button type="button">お問い合わせはこちらから</button>
+                <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd_Hj8eZJktZTGt2GBfusJdG4Ui7JDnsv56qnLbUu5puYXZfw/viewform?embedded=true')">お問い合わせはこちらから</button>
             </div>
     </body>
 </html>
