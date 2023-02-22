@@ -14,4 +14,8 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/', function() {return view('crossinformation/cross-information-first');});
+Route::get('/', [PostController::class, 'index']);
+
+Route::get('/crosstec/cross-company-technology-information', [PostController::class, 'power']);
+
+Route::get('/crossinformation/cross-information-first', [PostController::class, 'ya']);
