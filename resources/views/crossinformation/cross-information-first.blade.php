@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="../../css/information.css">
     </head>
     <body class="bady">
-       <x-heder></x-heder>
+        <x-heder></x-heder>
         <div class="karaage">
             <p style="text-align:center"><font size="7">―<span class="takatu">企業情報</span>―</font></p>
         </div>

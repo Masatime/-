@@ -1,0 +1,167 @@
+.bady{
+    
+}
+
+.karaage{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    background-color:#FFFFBB;
+}
+
+.takatu{
+    color: #EE0000;
+}
+
+.example{
+    display: inline-block;
+}
+
+.example img{
+    display: block;
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+.crossfan{
+    position: absolute;
+    top: 695px;
+    left: 72px;
+}
+
+.crossfan button{
+    width: 451px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding: 0;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.crossfan button:hover{
+    background-color: #FFC7AF;
+}
+
+.syokuryou{
+    position: absolute;
+    top: 695px;
+    left: 538px;
+}
+
+.syokuryou button{
+    width: 450px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.syokuryou button:hover{
+    background-color: #FFC7AF;
+}
+
+.kamera{
+    position: absolute;
+    top: 695px;
+    left: 1003px;
+}
+
+.kamera button{
+    width: 450px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.kamera button:hover{
+    background-color: #FFC7AF;
+}
+
+.example2{
+    display: inline-block;
+}
+
+.example2 img{
+    display: block;
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+
+.car{
+    position: absolute;
+    top: 1120px;
+    left: 70px;
+}
+
+.car button{
+    width: 451px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding: 0;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.car button:hover{
+    background-color: #FFC7AF;
+}
+
+.sisakuhin{
+    position: absolute;
+    top: 1120px;
+    left: 540px;
+}
+
+.sisakuhin button{
+    width: 450px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.sisakuhin button:hover{
+    background-color: #FFC7AF;
+}

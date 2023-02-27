@@ -8,7 +8,7 @@
     <body class="bady">
         <x-heder></x-heder>
         <div class="hohoho">
-            <p style="text-align:center"><font size="7">―<span class="takatu">企業理念・技術情報</span>―</font></p>
+            <p style="text-align:center"><font size="7">―<span class="takatu">企業理念</span>・<span class="takatu">技術情報</span>―</font></p>
         </div>
         <div class="dyadyadya">
             <div class="kugatu">

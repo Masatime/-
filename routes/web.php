@@ -14,8 +14,22 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/', [PostController::class, 'index']);
+Route::get('/', [PostController::class, 'open']);
+
+Route::get('/cross-open/cross-open', [PostController::class, 'open']);
 
 Route::get('/crosstec/cross-company-technology-information', [PostController::class, 'power']);
 
 Route::get('/crossinformation/cross-information-first', [PostController::class, 'ya']);
+
+Route::get('/cross-syouhin/cross-syouhin-information', [PostController::class, 'ka']);
+
+Route::get('/cross-syouhin-information-crossfan', [PostController::class, 'crossfan']);
+
+Route::get('/cross-syouhin-information-syokuryou', [PostController::class, 'syokuryou']);
+
+Route::get('/cross-syouhin-information-kamera', [PostController::class, 'kamera']);
+
+Route::get('/cross-syouhin-information-car', [PostController::class, 'car']);
+
+Route::get('/cross-syouhin-information-sisaku', [PostController::class, 'sisaku']);

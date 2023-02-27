@@ -1,0 +1,294 @@
+.bady{
+    
+}
+
+.karaage{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    background-color:#FFFFBB;
+}
+
+.takatu{
+    color: #EE0000;
+}
+
+.hscroll {
+	top: 360px;
+    left: 110px;
+	position: absolute;
+}
+.hscroll ul {
+	padding:0;
+	margin:0;
+	width: 525px;
+    height: 400px;
+	overflow:hidden;
+	white-space:nowrap;
+	scroll-snap-type:x mandatory;
+	scroll-behavior:smooth;
+}
+.hscroll img {
+	width: 525px;
+    height: 400px;
+	object-fit:contain;
+}
+.hscroll li {
+	list-style:none;
+	display:inline-block;
+	scroll-snap-align:center;
+	width: 525px;
+    height: 400px;
+}
+.arrow {
+	top:0;
+	position:absolute;
+	width:8%;
+	height:100%;
+	background:rgba(255,255,255,0.3);
+	cursor:pointer;
+}
+.arrow:before {
+	content:'';
+	position:absolute;
+	width:10px;
+	height:10px;
+	border-left:4px solid gray;
+	border-bottom:4px solid gray;
+}
+.left {
+	left:0px;
+}
+.left:before {
+	top:calc(50% - 10px);
+	left:calc(50% - 4px);
+	transform:rotate(45deg);
+}
+.right {
+	right:0;
+}
+.right:before {
+	top:calc(50% - 10px);
+	right:calc(50% - 6px);
+	transform:rotate(-135deg);
+}
+@media screen and (max-width:480px) {
+	.hscroll ul {
+		overflow-x:auto;
+	}
+}
+
+.kamei{
+    position: absolute;
+    top: 340px;
+    left: 670px;
+    width: 820px;
+}
+
+.matuda{
+    padding: 0;
+    border-bottom: 5px double #009900;
+    border-top: 5px double #009900;
+    display: inline-block;
+}
+
+.nakazima{
+    color: #DD0000;
+}
+
+table {
+    border-collapse:  collapse;
+    width: 800px;
+}
+
+th,td {
+    text-align: left;
+    font-size: 22px;
+    border-bottom: 2px solid #CCCCCC;
+    border-top: 2px solid #CCCCCC;
+}
+
+th {
+    padding: 8px;
+    padding-right: 30px;
+    background-color:  #FFFFFF; /* 背景色指定 */             
+    font-weight:  800;       /* 文字の太さ指定 */
+    width: 178px;
+}
+
+td {
+    padding: 8px 0px;
+    background-color:  #FFFFFF; /* 背景色指定 */
+}
+
+.daisu button{
+    z-index: 10;
+    width: 480px;
+    height: 60px;
+    font-size: 170%;
+    font-weight: 700;
+    color: #EE0000;
+    background: #FFFFFF;
+    border: 3px solid #EE0000;
+    border-radius: 100px;
+    position: absolute;
+    top: 440px;
+    right: 875px;
+    display: inline-block;
+    text-decoration: none; 
+    outline: none;
+    /*アニメーションの指定*/
+    transition: all .3s;
+}
+
+.daisu button:hover{
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid #FFAD90;
+    color: #FF9872;
+} 
+
+.hatu button{
+    z-index: 20;
+    width: 480px;
+    height: 60px;
+    font-size: 170%;
+    font-weight: 700;
+    color: #EE0000;
+    background: #FFFFFF;
+    border: 3px solid #EE0000;
+    border-radius: 100px;
+    position: absolute;
+    top: 520px;
+    right: 875px;
+    display: inline-block;
+    text-decoration: none; 
+    outline: none;
+    /*アニメーションの指定*/
+    transition: all .3s;
+}
+
+.hatu button:hover{
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid #FFAD90;
+    color: #FF9872;
+} 
+
+.tan button{
+    z-index: 30;
+    width: 480px;
+    height: 60px;
+    font-size: 170%;
+    font-weight: 700;
+    color: #EE0000;
+    background: #FFFFFF;
+    border: 3px solid #EE0000;
+    border-radius: 100px;
+    position: absolute;
+    top: 600px;
+    right: 875px;
+    display: inline-block;
+    text-decoration: none; 
+    outline: none;
+    /*アニメーションの指定*/
+    transition: all .3s;
+}
+
+.tan button:hover{
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid #FFAD90;
+    color: #FF9872;
+} 
+
+.harami button{
+    z-index: 40;
+    width: 480px;
+    height: 60px;
+    font-size: 170%;
+    font-weight: 700;
+    color: #EE0000;
+    background: #FFFFFF;
+    border: 3px solid #EE0000;
+    border-radius: 100px;
+    position: absolute;
+    top: 680px;
+    right: 875px;
+    display: inline-block;
+    text-decoration: none; 
+    outline: none;
+    /*アニメーションの指定*/
+    transition: all .3s;
+}
+
+.harami button:hover{
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid #FFAD90;
+    color: #FF9872;
+} 
+
+.karubi button{
+    z-index: 50;
+    width: 480px;
+    height: 60px;
+    font-size: 170%;
+    font-weight: 700;
+    color: #EE0000;
+    background: #FFFFFF;
+    border: 3px solid #EE0000;
+    border-radius: 100px;
+    position: absolute;
+    top: 760px;
+    right: 875px;
+    display: inline-block;
+    text-decoration: none; 
+    outline: none;
+    /*アニメーションの指定*/
+    transition: all .3s;
+}
+
+.karubi button:hover{
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid #FFAD90;
+    color: #FF9872;
+} 
+
+.danka{
+    position: absolute;
+    top: 840px;
+    right: 850px
+}
+
+.fanka{
+    position: absolute;
+    top: 1380px;
+    right: 845px
+}
+
+.youtube{
+    position: absolute;
+    top: 1385px;
+    left: 80px;
+}
+
+.chage{
+    width: 300px;
+    position: absolute;
+    top: 1790px;
+    left: 110px;
+}
+
+.chage button{
+    width: 600px;
+    height: 90px;
+    font-size: 200%;
+    font-weight: 900;
+    color: #FFFFFF;
+    background: #FF3333;
+    border: 1px solid #FFD5EC;
+    border-radius: 100px;
+}
+
+.chage button:hover{
+    background: #FF82B2;
+} 

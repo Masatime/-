@@ -2,13 +2,13 @@
 <div class="dage">
     <div class="ddd">
         <div class="cyacya">
-            <a href=""><img src="../../css/gg.jpg" alt="aaa" width="250" height="150"></a>
+            <a href="/cross-open/cross-open"><img src="../../css/gg.jpg" alt="aaa" width="250" height="150"></a>
         </div>
         <div class="qyaqya">
             <a href="/crossinformation/cross-information-first">企業情報</a>
         </div>
         <div class="rarara">
-            <a href="">商品情報</a>
+            <a href="/cross-syouhin/cross-syouhin-information">製品情報</a>
         </div>
         <div class="sasasa">
             <a href="/crosstec/cross-company-technology-information">企業理念・技術情報</a>
