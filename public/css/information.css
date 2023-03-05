@@ -82,7 +82,9 @@ table {
     background: #FF3333;
     border: 1px solid #FFD5EC;
     border-radius: 100px;
-    position: absolute; top: 2640px; left: 465px;
+    position: absolute; 
+    top: 2640px; 
+    left: 465px;
 }
 
 .chage button:hover{

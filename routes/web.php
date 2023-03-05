@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ItemsController; 
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +16,17 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/', [PostController::class, 'open']);
 
-Route::get('/cross-open/cross-open', [PostController::class, 'open']);
+
+Route::get('/', [ItemsController::class, 'index']);
+
+Route::get('/cross-open/cross-open', [ItemsController::class, 'index']);
+
+Route::get('/osirase/all', [ItemsController::class, 'all']);
+
+Route::get('/toukou', [ItemsController::class, 'create']);
+
+Route::post('/items', [ItemsController::class, 'store']);
 
 Route::get('/crosstec/cross-company-technology-information', [PostController::class, 'power']);
 

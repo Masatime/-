@@ -1,0 +1,419 @@
+.bady{
+  overflow: hidden scroll;
+}
+
+.saisyo{
+  border-bottom: 3px solid red;
+}
+
+.slider {
+  position:relative;
+  overflow: hidden;/*これが横幅いっぱいでブラウザ表示する方法*/
+  width: 100%;
+  right: 0px;
+  z-index: 1;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 0;
+  height: 450px;
+}
+/*　背景画像設定　*/
+
+.slider-item01 {
+  background:url(../../css/open1.png);
+}
+
+.slider-item02 {
+  background:url(../../css/open2.jpg);
+}
+
+.slider-item03 {
+  background:url(../../css/open3.jpg);
+}
+
+.slider-item04 {
+  background:url(../../css/open4.jpg);
+}
+
+.slider-item05 {
+  background:url(../../css/open5.jpg);
+}
+
+.slider-item {
+  box-sizing:border-box;
+  width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+  height:450px;
+  background-repeat: no-repeat;/*背景画像をリピートしない*/
+  background-position: center;/*背景画像の位置を中央に*/
+  background-size: cover;/*背景画像が.slider-item全体を覆い表示*/
+}
+
+.slide-arrow {
+  z-index: 2;
+  background-color: #FFFFFF;
+  bottom: 0;
+  height: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+.prev-arrow {
+  z-index: 3;
+  border-bottom: 20px solid #FFFFFF;
+  border-left: 0px;
+  border-right: 20px solid #CC0000;
+  border-top: 20px solid #FFFFFF;
+  left: 0px;
+}
+.next-arrow {
+  z-index: 4;
+  border-bottom: 20px solid #FFFFFF;
+  border-left: 20px solid #CC0000;
+  border-right: 0;
+  border-top: 20px solid #FFFFFF;
+  right: 0px;
+}
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  padding: 0;
+}
+
+.first{
+  font-size: 45px;
+  font-weight: 700;
+  background-color: #FFFFCC;
+  text-align: left;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.one{
+  color: #CC0000;
+}
+
+.abc{
+  font-size: 35px;
+  font-weight: 700;
+  background-color: #FFEEFF;
+  position: relative;
+  left: 150px;
+  width: 300px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: solid 3px #FFCCFF;
+}
+
+.abc p{
+  margin: auto;
+}
+
+table {
+  position: relative;
+  border-collapse:  collapse; /* セルの線を重ねる */
+  width: 80%;
+  margin: auto;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 2px #AAAAAA;
+  border-top: solid 2px #AAAAAA;
+}
+
+th{
+  text-align: left;
+  width: 15%;
+  border-right: none;
+  border-left: none;
+  font-size: 25px;
+  border-bottom: solid 2px #AAAAAA;
+  border-top: solid 2px #AAAAAA;
+}
+
+td{
+  text-align: left;
+  width: 85%;
+  border-right: none;
+  border-left: none;
+  font-size: 22px;
+  border-bottom: solid 2px #AAAAAA;
+  border-top: solid 2px #AAAAAA;
+}
+
+.tko{
+  font-size: 35px;
+  font-weight: 700;
+  background-color: #FFEEFF;
+  position: relative;
+  left: 1050px;
+  width: 300px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: solid 3px #FFCCFF;
+}
+
+.tko a{
+  margin: auto;
+  color: #000;
+}
+
+
+
+
+.example{
+  display: inline-block;
+  margin: 0;
+}
+
+.example img{
+  display: block;
+  float:left;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  position: relative;
+  top: 0px;
+  left: 60px;
+}
+
+.a{
+  position: relative;
+  bottom: 10px;
+  left: 54px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.crossfan{
+  position: relative;
+}
+
+.crossfan button{
+    width: 451px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding: 0;
+    margin-left: 9px;
+    margin-right: 7px;
+    margin-bottom: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.crossfan button:hover{
+  background-color: #FFC7AF;
+}
+
+.syokuryou{
+    position: relative;
+}
+
+.syokuryou button{
+    width: 450px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 9px;
+    margin-right: 9px;
+    transition: 0.5s ease-in-out;
+}
+
+.syokuryou button:hover{
+    background-color: #FFC7AF;
+}
+
+.kamera{
+    position: relative;
+}
+
+.kamera button{
+    width: 450px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 7px;
+    margin-right: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.kamera button:hover{
+    background-color: #FFC7AF;
+}
+
+.example2{
+  display: inline-block;
+  margin: 0;
+}
+
+.example2 img{
+    display: block;
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+
+.b{
+  position: relative;
+  top: 45px;
+  left: 53px;
+  display: flex;
+}
+
+.car{
+    position: relative;
+}
+
+.car button{
+    width: 451px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding: 0;
+    margin-left: 9px;
+    margin-right: 9px;
+    transition: 0.5s ease-in-out;
+}
+
+.car button:hover{
+    background-color: #FFC7AF;
+}
+
+.sisakuhin{
+    position: relative;
+}
+
+.sisakuhin button{
+    width: 450px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 9px;
+    margin-right: 9px;
+    transition: 0.5s ease-in-out;
+}
+
+.sisakuhin button:hover{
+    background-color: #FFC7AF;
+}
+
+.call{
+  position: relative;
+  top: 100px;
+  width: 1250px;
+  margin: auto;
+  padding-top: 25px;
+  display: flex;
+  border-top: 3px solid #CC0000;
+}
+
+.you{
+  font-size: 30px;
+  padding: 0;
+  margin-left: 20px
+}
+
+#xaxa{
+  font-weight: 700;
+}
+
+.youtube{
+  position: relative;
+  top: 115px;
+  width: 1250px;
+  margin: auto;
+  padding: 0;
+  padding-top: 25px;
+  border-top: 3px solid #CC0000;
+}
+
+.vava{
+  font-size: 30px;
+}
+
+#hahaha{
+  text-align: center;
+  font-weight: 700;
+  padding: 0;
+}
+
+.youyou{
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+
+#gaga{
+  margin-right: 10px;
+}
+
+#nana{
+  margin-left: 10px;
+}
+
+.zi{
+  position: relative;
+  top: 135px;
+  width: 1250px;
+  margin: auto;
+  padding: 0;
+  padding-top: 25px;
+  border-top: 3px solid #CC0000;
+  border-bottom: 3px solid #CC0000;
+}
+
+.chage{
+  width: 600px;
+  margin: auto;
+}
+
+.chage button{
+  width: 600px;
+  height: 90px;
+  font-size: 200%;
+  font-weight: 900;
+  color: #FFFFFF;
+  background: #FF3333;
+  border: 1px solid #FFD5EC;
+  border-radius: 100px;
+  position: relative;
+  top: 160px;
+}
+
+.chage button:hover{
+  background: #FF82B2;
+} 
