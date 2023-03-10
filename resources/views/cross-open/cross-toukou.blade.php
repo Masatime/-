@@ -15,11 +15,11 @@
             @csrf
                 <div class="input-form">
                   <label for="title">年数-月-日</label><br>
-                  <input type="nen" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" placeholder="例：2023-12-08(半角記入必須！！)" name="title">
+                  <input type="nen" pattern="[0-9]{4}-[0-1]{1}[0-9]{1}-[0-9]{2}" placeholder="例：2023-12-08(半角記入必須！！)" required name="title">
                 </div>
                 <div class="input-form">
                   <label for="body">内容(200字以内)</label><br>
-                  <textarea placeholder="内容を200字以内で入力" name="body"></textarea>
+                  <textarea maxlength="200" placeholder="内容を200字以内で入力"  required name="body"></textarea>
                 </div>
                 <div class="input-form">
                   <input type="submit" value="送信">

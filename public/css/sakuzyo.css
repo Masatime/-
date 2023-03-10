@@ -1,0 +1,48 @@
+.bady{
+    z-index: 20;
+}
+
+.karaage{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    background-color:#FFFFBB;
+}
+
+.takatu{
+    color: #EE0000;
+}
+
+table {
+    position: relative;
+    top: 20px;
+    border-collapse:  collapse; /* セルの線を重ねる */
+    width: 80%;
+    margin: auto;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 3px #BBBBBB;
+    border-top: solid 3px #BBBBBB;
+}
+
+th{
+  text-align: left;
+  width: 15%;
+  border-right: none;
+  border-left: none;
+  font-size: 25px;
+  border-bottom: solid 3px #BBBBBB;
+  border-top: solid 3px #BBBBBB;
+}
+
+td{
+  text-align: left;
+  width: 85%;
+  border-right: none;
+  border-left: none;
+  font-size: 22px;
+  border-bottom: solid 3px #BBBBBB;
+  border-top: solid 3px #BBBBBB;
+}

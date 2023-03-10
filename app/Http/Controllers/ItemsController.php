@@ -88,16 +88,18 @@ class ItemsController extends Controller
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Item  $item
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Item $item)
+    public function ally()
     {
+        $items = Item::latest()->get();  
+     
+        return view ('cross-open/cross-sakuzyo',['items' => $items]);
+    }
+    
+    public function destroy(Item $item, Request $request)
+    {
+        $id=$request->id;
         $item = Item::find($id);
         $item->delete();
-        return redirect('/items');
+        return redirect('/osirase/all');
     }
 }

@@ -28,6 +28,10 @@ Route::get('/toukou', [ItemsController::class, 'create']);
 
 Route::post('/items', [ItemsController::class, 'store']);
 
+Route::get('/ally', [ItemsController::class, 'ally']);
+
+Route::post('/itemsakuzyo', [ItemsController::class, 'destroy']);
+
 Route::get('/crosstec/cross-company-technology-information', [PostController::class, 'power']);
 
 Route::get('/crossinformation/cross-information-first', [PostController::class, 'ya']);

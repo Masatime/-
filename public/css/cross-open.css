@@ -116,7 +116,7 @@ button {
 table {
   position: relative;
   border-collapse:  collapse; /* セルの線を重ねる */
-  width: 80%;
+  max-width: 80%;
   margin: auto;
   border-right: none;
   border-left: none;
