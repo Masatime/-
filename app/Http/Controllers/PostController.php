@@ -11,6 +11,24 @@ class PostController extends Controller
         return view('cross-open/cross-open');
     }
     
+    public function roguin(){
+        return view('cross-open/cross-roguin');
+    }
+    
+    public function rarara(Request $request){
+        $a='6799tsuji-cross';
+        $b=$request->rogurogu;
+        if($a == $b){
+            return redirect('/toukou');
+        }else{
+            return view('cross-open/cross-era');
+        }
+        
+        
+        
+        
+    }
+    
     public function power(){
         return view('crosstec/cross-company-technology-information');
     }

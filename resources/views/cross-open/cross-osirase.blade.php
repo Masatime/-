@@ -18,6 +18,6 @@
                 </tr>
             @endforeach
         </table>
-        <a href="/toukou" class="btn_02">投稿</a>
-        <a href="/ally" class="btn_02">削除</a>
+        <a href="/roguin" class="btn_02">編集</a>
+        
         

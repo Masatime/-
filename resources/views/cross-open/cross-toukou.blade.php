@@ -26,3 +26,4 @@
                 </div>
             </form>
         </div>
+        <a href="/ally" class="gaga">削除フォームはこちら</a>

@@ -46,3 +46,23 @@ td{
   border-bottom: solid 3px #BBBBBB;
   border-top: solid 3px #BBBBBB;
 }
+
+.sasuke{
+    text-align: center;
+}
+
+.gaga{
+    position: relative;
+    width: 840px;
+    top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	padding: 1rem 4rem;
+	border: 2px solid #27acd9;
+	background: #27acd9;
+	color: #fff;
+	transition: 0.5s;
+}

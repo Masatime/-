@@ -8,7 +8,7 @@
 
 .slider {
   position:relative;
-  overflow: hidden;/*これが横幅いっぱいでブラウザ表示する方法*/
+  
   width: 100%;
   right: 0px;
   z-index: 1;
@@ -58,22 +58,7 @@
   top: 0;
   width: 0;
 }
-.prev-arrow {
-  z-index: 3;
-  border-bottom: 20px solid #FFFFFF;
-  border-left: 0px;
-  border-right: 20px solid #CC0000;
-  border-top: 20px solid #FFFFFF;
-  left: 0px;
-}
-.next-arrow {
-  z-index: 4;
-  border-bottom: 20px solid #FFFFFF;
-  border-left: 20px solid #CC0000;
-  border-right: 0;
-  border-top: 20px solid #FFFFFF;
-  right: 0px;
-}
+
 button {
   -webkit-appearance: none;
   -moz-appearance: none;

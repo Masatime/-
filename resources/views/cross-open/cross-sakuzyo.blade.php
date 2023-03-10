@@ -25,8 +25,9 @@
                 </tr>
             @endforeach
         </table>
-        
-        
+        <div class="sasuke">
+            <a href="/toukou" class="gaga">投稿フォームはこちら</a>
+        </div>
         
         
         

@@ -20,6 +20,10 @@ use App\Http\Controllers\ItemsController;
 
 Route::get('/', [ItemsController::class, 'index']);
 
+Route::get('/roguin', [PostController::class, 'roguin']);
+
+Route::post('/rarara', [PostController::class, 'rarara']);
+
 Route::get('/cross-open/cross-open', [ItemsController::class, 'index']);
 
 Route::get('/osirase/all', [ItemsController::class, 'all']);

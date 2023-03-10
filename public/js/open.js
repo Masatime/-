@@ -6,7 +6,6 @@ $('.slider').slick({
 		infinite: true,//スライドをループさせるかどうか。初期値はtrue。
 		slidesToShow: 1,//スライドを画面に3枚見せる
 		slidesToScroll: 1,//1回のスクロールで3枚の写真を移動して見せる
-		arrows: true,//左右の矢印あり
 		prevArrow: '<button class="slide-arrow prev-arrow"></button>',
         nextArrow: '<button class="slide-arrow next-arrow"></button>',
 		dots: true,//下部ドットナビゲーションの表示

@@ -1,0 +1,28 @@
+.bady{
+    z-index: 20;
+}
+
+.karaage{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    background-color:#FFFFBB;
+}
+
+.takatu{
+    color: #EE0000;
+}
+
+label{
+    width: 1100px;
+    height: 100px;
+    font-size: 35px;
+}
+
+input{
+    width: 1100px;
+    height: 100px;
+    font-size: 35px;
+}
